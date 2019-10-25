@@ -20,6 +20,7 @@ public class HelloController {
     @ResponseBody
     public List<People> test(){
         List<People> select = peopleMapper.select();
+
         return select;
     }
 }
